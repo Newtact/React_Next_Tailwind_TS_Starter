@@ -1,5 +1,5 @@
 {
-  "name": "tw03",
+  "name": "ne02",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "next": "^12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -19,7 +21,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.2",
+    "tailwindcss": "^3.0.18",
     "typescript": "4.5.2"
   }
 }
